@@ -11823,7 +11823,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span> <span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -11834,43 +11834,6 @@ div#notebook {
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>      RM  LSTAT  PTRATIO      MEDV
-0  6.575   4.98     15.3  504000.0
-1  6.421   9.14     17.8  453600.0
-2  7.185   4.03     17.8  728700.0
-3  6.998   2.94     18.7  701400.0
-4  7.147   5.33     18.7  760200.0
-2
-      RM  LSTAT  PTRATIO
-0  6.575   4.98     15.3
-1  6.421   9.14     17.8
-2  7.185   4.03     17.8
-3  6.998   2.94     18.7
-4  7.147   5.33     18.7
-RM         489
-LSTAT      489
-PTRATIO    489
-MEDV       489
-dtype: int64
-0    504000.0
-1    453600.0
-2    728700.0
-3    701400.0
-4    760200.0
-Name: MEDV, dtype: float64
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -14771,7 +14734,7 @@ Predicted selling price for Client 3&#39;s home: $938,053.85
 <p><strong>Answer: </strong></p>
 <ol>
 <li>If I was a real estate agent I would use the predicted price as reference and check other factors like the house specific location and maintenance conditions and so on, then minus or plus some amount money to the predicted prices for the final prices.</li>
-<li>I do not think those prices are reasonable given the values for the respective features.</li>
+<li>I think those prices are reasonable given the values for the respective features. For client 3, the predicted selling price is highest among 3 clients because it got more rooms, which is 8, and bast educatiion resorces, student-teacher ratio is lowest, and lowest neighborhood poverty level, so it make sense that the prices is higher. For client 2, the predicted selling price is lowest among these 3 clients because it got lowest number of rooms, which is 4, and worse education resouces and highest neighborhood poverty level, so it should be lowest selling price among these 3 clients.</li>
 </ol>
 
 </div>
