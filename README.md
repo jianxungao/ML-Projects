@@ -1,10 +1,10 @@
-For Udacity's Machine Learning Nanodegree Projects
+# For Udacity's Machine Learning Nanodegree Projects
 
-Model Evaluation & Validation
+## Model Evaluation & Validation
     - Project: Predicting Boston Housing Prices
 
-Supervised Learning
+## Supervised Learning
     - Project: Building a Student Intervention System
 
-Unsupervised Learning
+## Unsupervised Learning
     - Project: Creating Customer Segments
